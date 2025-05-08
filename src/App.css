@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+body {
+  background-color: #7fb2fd49; 
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-link {
+  color: #333 !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #ddd !important;
+  color: #000 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #eee !important;
+  color: #000 !important;
+}
+
+.navbar-personalizada {
+  background-color: #1352ff6b; 
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  font-weight: bold;
+  
+}
+
+/*COR PRETA NA LETRA*/
+.navbar-personalizada .nav-link,
+.navbar-personalizada .navbar-brand,
+.navbar-personalizada .dropdown-item {
+  color: rgb(0, 0, 0) !important;
 }

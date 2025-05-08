@@ -1,7 +1,8 @@
 const Sobre = () => (
     <div>
-        <h1>Sobre o sistema</h1>
-        <h2>Sistema desenvolvido na Disciplina de PW - 2025/1</h2>
+        <h1>Sobre o Trabalho</h1>
+        <h3>Sistema desenvolvido na Disciplina de Programação para Web para atender uma locadora de veículos.</h3>
+       
     </div>
 );
 export default Sobre;
